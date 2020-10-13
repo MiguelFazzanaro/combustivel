@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#BDBCBD</color>
+    <color name="button">#FFC107</color>
+    <color name="txt_button">#000000</color>
+    <color name="txt">#FFC107</color>
+</resources>

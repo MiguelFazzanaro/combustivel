@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_informar"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="117dp"
+        android:textColor="@color/txt"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gasolina"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="192dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/hint_gasolina"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/etanol"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="494dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/hint_etanol"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_button"
+        android:textColor="@color/txt_button"
+        android:background="@color/button"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_resultado"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="598dp"
+        android:textColor="@color/txt"/>
+
+    <ImageView
+        android:id="@+id/comp_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/abasteca_etanol"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+</LinearLayout>
